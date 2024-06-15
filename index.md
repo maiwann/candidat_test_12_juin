@@ -5,9 +5,9 @@ in_menu: true
 ---
 <section class="entete">
   <!-- Ci-dessous la photo de votre candidat·e -->
-  ![Nom Prénom candidat pour le Front Populaire le 30 juin]({% link images/Illu_FP.jpg %})
+  <img alt="Nom Prénom candidat pour le Front Populaire le 30 juin" src="./images/Illu_FP.jpg">
 
-# Le 30 juin, votez NOM Prénom pour le Nouveau Front Populaire !
+<h1>Le 30 juin, votez NOM Prénom pour le Nouveau Front Populaire !</h1>
 
   <a href="">Notre programme : 100 jours pour…</a>
 
@@ -15,8 +15,8 @@ in_menu: true
 
 <section class="programme">
 
-  ## Le programme du Front Populaire
-> 100 jours pour tout changer
+  <h2>Le programme du Front Populaire</h2>
+<span>100 jours pour tout changer</span>
 
 <ul>
   <li>
@@ -40,27 +40,43 @@ in_menu: true
 
 <section class="candidature">
   <!-- Ci-dessous la photo de votre candidat·e -->
-  ![Nom Prénom candidate pour le Front Populaire le 30 juin]({% link images/Illu_FP.jpg %})
+  <img alt="Nom Prénom candidat pour le Front Populaire le 30 juin" src="./images/Illu_FP.jpg">
 
-## Nom Prénom
+<h2>Nom Prénom</h2>
 
   <!-- Ci-dessous 3 points à retenir sur votre candidat·e (faire court !) -->
-- 
-- 
--  
+<ul>
+  <li>
+    Point numéro 1
+  </li>
+  <li>
+    Point numéro 2
+  </li>
+  <li>
+    Point numéro 3
+  </li>
+</ul>
 
   <!-- Ci-dessous un petit texte reprenant 2 ou 3 mesures nationales en les déclinant sur les impacts locaux. -->
 Paragraphe à remplacer par votre texte sur les enjeux locaux. Paragraphe à remplacer par votre texte sur les enjeux locaux. Paragraphe à remplacer par votre texte sur les enjeux locaux. Paragraphe à remplacer par votre texte sur les enjeux locaux. Paragraphe à remplacer par votre texte sur les enjeux locaux. Paragraphe à remplacer par votre texte sur les enjeux locaux. Paragraphe à remplacer par votre texte sur les enjeux locaux. Paragraphe à remplacer par votre texte sur les enjeux locaux. 
 
 <!-- Si besoin car non présent·e sur la 1e photo, ci-dessous la photo de votre suppléant·e -->
-  ![Nom Prénom suppléante pour le Front Populaire le 30 juin]({% link images/Illu_FP.jpg %})
+  <img alt="Nom Prénom suppléante pour le Front Populaire le 30 juin" src="./images/Illu_FP.jpg">
 
-## Nom Prénom - suppléante
+<h2>Nom Prénom - suppléante</h2>
 
   <!-- Ci-dessous 3 points à retenir sur votre candidat·e (faire court !) -->
-- 
-- 
--  
+<ul>
+  <li>
+    Point numéro 1
+  </li>
+  <li>
+    Point numéro 2
+  </li>
+  <li>
+    Point numéro 3
+  </li>
+</ul>
 
   <!-- Ci-dessous un petit texte reprenant 2 ou 3 mesures nationales en les déclinant sur les impacts locaux. -->
 Paragraphe à remplacer par votre texte sur les enjeux locaux. Paragraphe à remplacer par votre texte sur les enjeux locaux. Paragraphe à remplacer par votre texte sur les enjeux locaux. Paragraphe à remplacer par votre texte sur les enjeux locaux. Paragraphe à remplacer par votre texte sur les enjeux locaux. Paragraphe à remplacer par votre texte sur les enjeux locaux. Paragraphe à remplacer par votre texte sur les enjeux locaux. Paragraphe à remplacer par votre texte sur les enjeux locaux. 
@@ -70,17 +86,18 @@ Paragraphe à remplacer par votre texte sur les enjeux locaux. Paragraphe à rem
 
 <section class="logos_partis">
 
-  ## L'union de la gauche, c'est le Nouveau Front Populaire !
+  <h2>L'union de la gauche, c'est le Nouveau Front Populaire !</h2>
 
 <ul>
   <li>
-    ![Logo 1]({% link images/Illu_FP.jpg %})
+      <img alt="logo" src="./images/Illu_FP.jpg">
+
   </li>
   <li>
-    ![Logo 2]({% link images/Illu_FP.jpg %})
+    <img alt="logo" src="./images/Illu_FP.jpg">
   </li>
   <li>
-    ![Logo 3]({% link images/Illu_FP.jpg %})
+    <img alt="logo" src="./images/Illu_FP.jpg">
   </li>
 </ul>
 
@@ -90,7 +107,7 @@ Paragraphe à remplacer par votre texte sur les enjeux locaux. Paragraphe à rem
 
 Vous ne pouvez pas vous déplacer le 30 juin ou le 7 juillet prochain ?
 
-## Votez par procuration
+<h2>Votez par procuration</h2>
 
 Prenez contact rapidement avec des personnes volontaires sur <a href="https://actionpopulaire.fr/procuration">Action Populaire</a>
 
@@ -98,9 +115,12 @@ Prenez contact rapidement avec des personnes volontaires sur <a href="https://ac
 
 <section class="inscription">
 
-- Vous ne savez pas quel est votre bureau de vote ?
-- Vous n'êtes pas sûr·es d'être inscrit·e ?
-- Vous voulez retrouver votre numéro d'électeur·ice pour faire une procuration ?
+<ul>
+<li>Vous ne savez pas quel est votre bureau de vote ?</li>
+<li>Vous n'êtes pas sûr·es d'être inscrit·e ?</li>
+<li>Vous voulez retrouver votre numéro d'électeur·ice pour faire une procuration ?</li>
+</ul>
+
 Retrouvez vos informations pour <strong>voter les 30 juin et 7 juillet</strong> sur <a href="https://www.service-public.fr/particuliers/vosdroits/R51788">Service-Public.fr</a>
 
 </section>
@@ -108,7 +128,7 @@ Retrouvez vos informations pour <strong>voter les 30 juin et 7 juillet</strong> 
 
 <section class="villes">
 
-## Le 30 juin et le 7 juillet, votez et faites votez autour de vous !
+<h2>Le 30 juin et le 7 juillet, votez et faites votez autour de vous !</h2>
 
 <!-- Ci-dessous listez les villes de votre circonscription pour aider les moteurs de recherche à trouver votre site -->
 
